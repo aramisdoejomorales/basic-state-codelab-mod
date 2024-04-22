@@ -14,5 +14,4 @@ fun WellnessScreen(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(12.dp))
         WellnessTaskList()
     }
-
 }

@@ -16,7 +16,6 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun StatelessCounter(counter: Int, onIncrement: () -> Unit, modifier: Modifier = Modifier) {
     Column(modifier = modifier.padding(10.dp)) {
-
         if (counter > 0) {
             Text(text = "You've had $counter glasses.")
         }
